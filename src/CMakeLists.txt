@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.1)
+project(myproj)
+
 # One of two lines present depending on if output is a library (shared or static) or an executable
 #add_library(mytarget)
 add_executable(mytarget mytarget.c)
